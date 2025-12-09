@@ -16,7 +16,7 @@ public class Main {
                 double amount = scanner.nextDouble();
                 
                 if (amount == 0) {
-                    System.out.println("Thank you for banking with us. Goodbye!");
+                    System.out.println("Thank you for banking with us. Namaste!");
                     break;
                 }
                 
