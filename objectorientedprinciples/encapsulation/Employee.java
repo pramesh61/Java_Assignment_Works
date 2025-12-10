@@ -1,7 +1,7 @@
 package objectorientedprinciples.encapsulation;
 
 public class Employee {
-    // Private fields (encapsulated data)
+
     private int id;
     private String name;
 
