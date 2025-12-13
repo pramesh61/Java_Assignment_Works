@@ -16,8 +16,8 @@ public void withdraw(double amount) throws CustomException {
         throw new CustomException("Cannot Withdraw"  + amount +  ".Minimum balance NPR 10 required.");
     }
     balance -= amount;
-    System.out.println("Dear Customer Your Account has been withdrawn by NPR"  +  amount);
-    System.out.println("Dear Customer Your Current Balance in a account is NPR"  +  balance);
+    System.out.println("Dear customer, your account has been debited by NPR"  +  amount);
+    System.out.println("Dear Customer, your current account balance  is NPR"  +  balance);
 }
 
     public double getBalance() {
